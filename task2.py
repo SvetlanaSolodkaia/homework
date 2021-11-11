@@ -1,5 +1,5 @@
 """
-Выполненное задание размещено в файле tasks2.py в репозитории
+Выполненное задание размещено в файле task2.py в репозитории
 https://github.com/SvetlanaSolodkaia/homework
 """
 
