@@ -1,5 +1,5 @@
 """
-Выполненное задание размещено в файле task2.py в репозитории
+Выполненное задание размещено в файле task3.py в репозитории
 https://github.com/SvetlanaSolodkaia/homework
 """
 
@@ -174,6 +174,3 @@ def testfunct2(*args):
 
 testfunct2(2,1,2)
 testfunct2('tra','ta','tu','shki')
-
-
-
