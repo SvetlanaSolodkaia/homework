@@ -222,10 +222,5 @@ print('\nTask 8')
 
 import Test_date
 
-"""
-ошибка при установке пакета
-"""
-
-
-
-
+if __name__ == '__main__':
+    Test_date.main()
