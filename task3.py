@@ -2,7 +2,7 @@
 Выполненное задание размещено в файле task3.py в репозитории
 https://github.com/SvetlanaSolodkaia/homework
 """
-import collections
+from collections import namedtuple
 
 """
 Задание 1
@@ -220,7 +220,10 @@ print('New point 2: ', ntp)
 """
 print('\nTask 8')
 
-import Test_date
+from Test_date import test_date_code
 
 if __name__ == '__main__':
-    Test_date.main()
+    test_date_code.main()
+
+
+
