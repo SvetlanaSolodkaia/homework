@@ -2,6 +2,7 @@
 Выполненное задание размещено в файле task3.py в репозитории
 https://github.com/SvetlanaSolodkaia/homework
 """
+
 from collections import namedtuple
 
 """
