@@ -11,7 +11,7 @@ main file for task 4
 import subprocess
 import os
 
-testfile = "task4_testfile.txt"
+testfile = "task4_1.txt"
 
 def open_file(testfile):
     try:
@@ -29,7 +29,7 @@ open_file(testfile)
 """
 import logging
 
-test_log_file = "tas04_2.log"
+test_log_file = "task4_2.log"
 logging.basicConfig(filename=test_log_file)
 logger = logging.getLogger(__name__) # указано имя текущего модуля
 logger.setLevel(logging.DEBUG) # debug - выводит всю информацию для отладки
@@ -55,3 +55,20 @@ test_print_files()
 Создать функцию, которая в фоновом потоке скачает содержимое сайта https://epam.com.
 Скачанную информацию надо сохранить в файл.
 """
+
+import requests
+
+url = "https://finuslugi.ru/" # сайт епама не дает доступа на скачивание на удаленной машине
+file = "task4_3.html"
+
+def url_saving():
+    f = open(file, 'wb')
+    html = requests.get(url)
+    f.write(html.content)
+    f.close()
+
+url_saving()
+
+
+
+
