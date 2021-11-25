@@ -58,7 +58,8 @@ test_print_files()
 
 import requests
 
-url = "https://finuslugi.ru/" # сайт епама не дает доступа на скачивание на удаленной машине
+# url = "https://finuslugi.ru/" # сайт епама не дает доступа на скачивание на удаленной машине
+url = "https://finuslugi.ru/"
 file = "task4_3.html"
 
 def url_saving():
